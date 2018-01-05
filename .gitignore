@@ -1,0 +1,9 @@
+# IntelliJ project files
+.idea
+
+# Composer
+composer.lock
+/vendor/
+
+# IDE Helper
+.ide_helper.php
