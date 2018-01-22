@@ -8,6 +8,11 @@ Yii2 DevKit
 
 Developer helper kit for Yii2 framework.
 
+Features
+---------
++ Integrated IDE auto complete generator [![](https://img.shields.io/badge/Powered_by-yii2_autocomplete_helper-green.svg?style=flat)]()
++ Integrated Migration code generator [![](https://img.shields.io/badge/Powered_by-yii2_schemadump-green.svg?style=flat)]()
+
 Installation
 ------------
 
@@ -32,4 +37,20 @@ Usage
 -----
 
 Once the extension is installed, simply use it in your code by  :
+```php
+[
+    'bootstrap' => ['devkit'],
+    'modules' => [
+        'devkit' => [
+            'class' => 'yiithings\devkit\Module',
+        ],
+    ],
+]
+```
 
+Use console:
+```bash
+$ ./yii devkit/ide-helper
+$ ./yii devkit/schema-create
+$ ./yii devkit/schema-drop
+```
