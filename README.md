@@ -10,8 +10,8 @@ Developer helper kit for Yii2 framework.
 
 Features
 ---------
-+ Integrated IDE auto complete generator [![](https://img.shields.io/badge/Powered_by-yii2_autocomplete_helper-green.svg?style=flat)]()
-+ Integrated Migration code generator [![](https://img.shields.io/badge/Powered_by-yii2_schemadump-green.svg?style=flat)]()
++ Integrated IDE auto complete generator [![](https://img.shields.io/badge/Powered_by-yii2_autocomplete_helper-green.svg?style=flat)](https://github.com/iiifx-production/yii2-autocomplete-helper)
++ Integrated Migration code generator [![](https://img.shields.io/badge/Powered_by-yii2_schemadump-green.svg?style=flat)](https://github.com/jamband/yii2-schemadump)
 
 Installation
 ------------
